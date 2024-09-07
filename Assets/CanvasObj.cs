@@ -26,7 +26,11 @@ public class CanvasObj : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Destroy(currLine);
+        if (currLine)
+        {
+            Destroy(currLine.gameObject);
+        }
+        
         var pos = RaycastToPlane();
         currLine = Instantiate(line, pos, Quaternion.identity).GetComponent<LineRenderer>();
         lineIndex = 0;
