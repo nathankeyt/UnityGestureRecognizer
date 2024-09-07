@@ -1,12 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
+using Palmmedia.ReportGenerator.Core.Common;
 using PDollarGestureRecognizer;
 using UnityEngine;
 using QDollarGestureRecognizer;
 using Unity.PlasticSCM.Editor.WebApi;
+using System.Text.Json;
+using UnityEditorInternal;
 
 public class CanvasObj : MonoBehaviour
 {
@@ -18,14 +22,34 @@ public class CanvasObj : MonoBehaviour
     private Vector3 prevPosition;
     private List<Gesture> storedGestures;
     private string currName = "default";
+    private bool cancelDraw = false;
 
     private void Start()
     {
         storedGestures = new List<Gesture>();
+        
+        var d = new DirectoryInfo(Application.dataPath + "/Runes/");
+        foreach (var file in d.GetFiles("*.json"))
+        {
+            LoadFile(file.FullName);
+        }
+        
+        print(storedGestures.Count);
+    }
+
+    private void LoadFile(string fileName)
+    {
+        print(fileName);
+        var gesture = JsonUtility.FromJson<Gesture>(File.ReadAllText(fileName));
+            
+        gesture.Normalize(true);
+        storedGestures.Add(gesture);
     }
 
     private void OnMouseDown()
     {
+        cancelDraw = false;
+        
         if (currLine)
         {
             Destroy(currLine.gameObject);
@@ -34,21 +58,28 @@ public class CanvasObj : MonoBehaviour
         var pos = RaycastToPlane();
         currLine = Instantiate(line, pos, Quaternion.identity).GetComponent<LineRenderer>();
         lineIndex = 0;
-        currLine.SetPosition(0, pos + GetDirectionToMouse(pos));
+        currLine.SetPosition(0, pos + (GetDirectionToMouse(pos) * 0.1f));
         prevPosition = pos;
     }
 
     private void OnMouseDrag()
     {
+        if (cancelDraw) return;
+        
         var pos = RaycastToPlane();
 
         if (Vector3.Distance(prevPosition, pos) > minPointDistance) {
             currLine.positionCount++;
-            currLine.SetPosition(++lineIndex, pos + GetDirectionToMouse(pos));
+            currLine.SetPosition(++lineIndex, pos + (GetDirectionToMouse(pos) * 0.1f));
             prevPosition = pos;
         }
     }
-    
+
+    private void OnMouseExit()
+    {
+        cancelDraw = true;
+    }
+
     private Vector3 GetDirectionToMouse(Vector3 pos)
     {
         var heading = Camera.main.ScreenToWorldPoint(Input.mousePosition) - pos;
@@ -78,9 +109,12 @@ public class CanvasObj : MonoBehaviour
     {
         var gesture = loadGesture();
         
-        gesture.Normalize(true);
-        
-        storedGestures.Add(gesture);
+        var json = JsonUtility.ToJson(gesture);
+        print(json);
+        string path = Application.dataPath + "/Runes/" + currName + ".json";
+        File.WriteAllText(path, json);
+
+        LoadFile(path);
     }
 
     public Gesture loadGesture()

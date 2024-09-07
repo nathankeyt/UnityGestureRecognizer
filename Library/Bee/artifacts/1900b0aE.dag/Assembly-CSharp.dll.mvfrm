@@ -1,3 +1,23 @@
+RegisterGenericJobTypeAttribute
+Unity
+Entities
+DataStreamReader
+Networking
+Transport
+DataStreamWriter
+MaterialQuality
+Utilities
+MaterialQualityUtilities
+FileUtilityHybrid
+Unity
+Entities
+Hybrid
+ReferencedUnityObjects
+SerializeUtilityHybrid
+Serialization
+ResourceMetaData
+ResourceCatalogData
+SceneBoundingVolume
 AssetModificationProcessor
 
 Sysroot

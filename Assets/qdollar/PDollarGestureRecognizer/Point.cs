@@ -65,6 +65,7 @@ namespace PDollarGestureRecognizer
     /// Implements a 2D Point that exposes X, Y, and StrokeID properties.
     /// StrokeID is the stroke index the point belongs to (e.g., 0, 1, 2, ...) that is filled by counting pen down/up events.
     /// </summary>
+    [Serializable]
     public class Point
     {
         public float X, Y;       // point coordinates

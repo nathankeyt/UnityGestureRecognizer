@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638612753267421136
-    m_Hash: 674148673
+      ticks: 638613447191441225
+    m_Hash: 3645940706
   m_LockFileStatus:
     m_FilePath: C:/Users/natha/Documents/UnityProjects/GestureRecognizer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638612753482702833
-    m_Hash: 1754719187
+      ticks: 638613447191466298
+    m_Hash: 2510700326
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,128 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/natha/Documents/UnityProjects/GestureRecognizer/Packages
 m_EditorVersion: 2022.3.45f1 (a13dfa44d684)
 m_ResolvedPackages:
+- packageId: com.unity.charactercontroller@1.2.0-pre.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.0-pre.2
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.charactercontroller@1.2.0-pre.2
+  assetPath: Packages/com.unity.charactercontroller
+  name: com.unity.charactercontroller
+  displayName: Character Controller
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package provides a customizable character controller solution
+    for Entities. \n\n Navigate to the \"Samples\" tab in order to download the \"Standard
+    Characters\", which serve as a starting point for implementing your own characters."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.2
+    - 1.0.0-exp.4
+    - 1.0.0-exp.5
+    - 1.0.0-exp.22
+    - 1.1.0-exp.10
+    - 1.2.0-pre.2
+    compatible:
+    - 1.0.0-exp.2
+    - 1.0.0-exp.4
+    - 1.0.0-exp.5
+    - 1.0.0-exp.22
+    - 1.1.0-exp.10
+    - 1.2.0-pre.2
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.physics
+    version: 1.2.0
+  - name: com.unity.entities
+    version: 1.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.physics
+    version: 1.2.0
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.entities
+    version: 1.2.4
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.24
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  keywords:
+  - unity
+  - character
+  - controller
+  - physics
+  - rival
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638611449748380000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 47612ad2d3aa046bd379f795d6b56953a5e07a2c
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.collab-proxy@2.4.4
   testable: 0
   isDirectDependency: 1
@@ -167,6 +289,161 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.entities.graphics@1.2.4
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.4
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities.graphics@1.2.4
+  assetPath: Packages/com.unity.entities.graphics
+  name: com.unity.entities.graphics
+  displayName: Entities Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Entities Graphics package provides systems and components for
+    drawing meshes using DOTS, including support for instanced mesh rendering and
+    LOD.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.8
+    - 1.0.0-exp.14
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    compatible:
+    - 1.0.0-exp.8
+    - 1.0.0-exp.14
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    recommended: 1.2.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.entities
+    version: 1.2.4
+  - name: com.unity.render-pipelines.core
+    version: 14.0.9
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.entities
+    version: 1.2.4
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.24
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - dots
+  - hybrid
+  - rendering
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638593176490000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.entities.graphics@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 3229c084d74b90980f151fe926f426ae38a63b44
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 1.2.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
@@ -214,9 +491,9 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.22
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.4.3
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -2787,9 +3064,9 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.4.3
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -2896,7 +3173,7 @@ m_ResolvedPackages:
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   keywords: []
   registry:
     id: main
@@ -3132,12 +3409,1803 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.test-framework@1.1.33
+- packageId: com.unity.testtools.codecoverage@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 1.1.33
+  version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
+  assetPath: Packages/com.unity.testtools.codecoverage
+  name: com.unity.testtools.codecoverage
+  displayName: Code Coverage
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Use this package to export code coverage data and reports from your
+    automated tests. Additionally, the Code Coverage package offers a Coverage Recording
+    feature which allows capturing coverage data on demand, for manual testing or
+    when there are no automated tests in the project.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.4.2-preview
+    - 0.4.3-preview
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-exp.1
+    - 1.2.0-exp.2
+    - 1.2.0-exp.3
+    - 1.2.0-exp.4
+    - 1.2.0-exp.5
+    - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    compatible:
+    - 1.2.6
+    recommended: 1.2.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.0.16
+  - name: com.unity.settings-manager
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - test
+  - coverage
+  - testing
+  - opencover
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638575857900000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
+    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.entities@1.2.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.4
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4
+  assetPath: Packages/com.unity.entities
+  name: com.unity.entities
+  displayName: Entities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Entities package provides a modern Entity Component System (ECS)
+    implementation with a basic set of systems and components made for Unity.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.4
+    - 0.0.12-preview.5
+    - 0.0.12-preview.6
+    - 0.0.12-preview.8
+    - 0.0.12-preview.11
+    - 0.0.12-preview.12
+    - 0.0.12-preview.13
+    - 0.0.12-preview.14
+    - 0.0.12-preview.15
+    - 0.0.12-preview.16
+    - 0.0.12-preview.17
+    - 0.0.12-preview.18
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 0.0.12-preview.21
+    - 0.0.12-preview.23
+    - 0.0.12-preview.24
+    - 0.0.12-preview.26
+    - 0.0.12-preview.27
+    - 0.0.12-preview.28
+    - 0.0.12-preview.29
+    - 0.0.12-preview.30
+    - 0.0.12-preview.31
+    - 0.0.12-preview.32
+    - 0.0.12-preview.33
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.18
+    - 0.3.0-preview.4
+    - 0.4.0-preview.10
+    - 0.5.0-preview.17
+    - 0.5.1-preview.11
+    - 0.6.0-preview.24
+    - 0.7.0-preview.19
+    - 0.8.0-preview.8
+    - 0.9.0-preview.6
+    - 0.9.1-preview.15
+    - 0.10.0-preview.6
+    - 0.11.0-preview.7
+    - 0.11.1-preview.4
+    - 0.11.2-preview.1
+    - 0.13.0-preview.24
+    - 0.14.0-preview.18
+    - 0.14.0-preview.19
+    - 0.16.0-preview.21
+    - 0.17.0-preview.41
+    - 0.17.0-preview.42
+    - 0.50.0-preview.24
+    - 0.50.1-preview.2
+    - 0.51.0-preview.32
+    - 0.51.1-preview.21
+    - 1.0.0-exp.8
+    - 1.0.0-exp.12
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.47
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    compatible:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.4
+    - 0.0.12-preview.5
+    - 0.0.12-preview.6
+    - 0.0.12-preview.8
+    - 0.0.12-preview.11
+    - 0.0.12-preview.12
+    - 0.0.12-preview.13
+    - 0.0.12-preview.14
+    - 0.0.12-preview.15
+    - 0.0.12-preview.16
+    - 0.0.12-preview.17
+    - 0.0.12-preview.18
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 0.0.12-preview.21
+    - 0.0.12-preview.23
+    - 0.0.12-preview.24
+    - 0.0.12-preview.26
+    - 0.0.12-preview.27
+    - 0.0.12-preview.28
+    - 0.0.12-preview.29
+    - 0.0.12-preview.30
+    - 0.0.12-preview.31
+    - 0.0.12-preview.32
+    - 0.0.12-preview.33
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.18
+    - 0.3.0-preview.4
+    - 0.4.0-preview.10
+    - 0.5.0-preview.17
+    - 0.5.1-preview.11
+    - 0.6.0-preview.24
+    - 0.7.0-preview.19
+    - 0.8.0-preview.8
+    - 0.9.0-preview.6
+    - 0.9.1-preview.15
+    - 0.10.0-preview.6
+    - 0.11.0-preview.7
+    - 0.11.1-preview.4
+    - 0.11.2-preview.1
+    - 0.13.0-preview.24
+    - 0.14.0-preview.18
+    - 0.14.0-preview.19
+    - 0.16.0-preview.21
+    - 0.17.0-preview.41
+    - 0.17.0-preview.42
+    - 0.50.0-preview.24
+    - 0.50.1-preview.2
+    - 0.51.0-preview.32
+    - 0.51.1-preview.21
+    - 1.0.0-exp.8
+    - 1.0.0-exp.12
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.47
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    recommended: 1.2.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.20.2
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.24
+  keywords:
+  - entities
+  - dots
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638593176380000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.entities@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 3229c084d74b90980f151fe926f426ae38a63b44
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 1.2.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.render-pipelines.core@14.0.11
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.11
+  source: 2
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.render-pipelines.core@14.0.11
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.11
+    compatible:
+    - 14.0.11
+    recommended: 14.0.11
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.physics@1.2.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.0
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.physics@1.2.0
+  assetPath: Packages/com.unity.physics
+  name: com.unity.physics
+  displayName: Unity Physics
+  author:
+    name: 
+    email: 
+    url: 
+  category: Unity
+  type: assets
+  description: 'Unity''s C# stateless physics library.
+
+
+    Built on top of the
+    Unity C# ECS framework, Unity Physics is network-ready, completely customizable,
+    and built for performance out of the box. Whether you''re building the next mobile
+    hit or a new networked multiplayer console experience, Unity Physics leverages
+    the Burst compiler and Job system to scale across a range of hardware.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.1
+    - 0.0.2-preview.1
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 0.2.5-preview.1
+    - 0.3.0-preview.1
+    - 0.3.1-preview
+    - 0.3.2-preview
+    - 0.4.0-preview.5
+    - 0.4.1-preview
+    - 0.5.0-preview.1
+    - 0.5.1-preview.2
+    - 0.6.0-preview.3
+    - 0.50.0-preview.24
+    - 0.50.0-preview.43
+    - 0.51.0-preview.32
+    - 0.51.1-preview.21
+    - 1.0.0-exp.8
+    - 1.0.0-exp.12
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    compatible:
+    - 0.0.1-preview.1
+    - 0.0.2-preview.1
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 0.2.5-preview.1
+    - 0.3.0-preview.1
+    - 0.3.1-preview
+    - 0.3.2-preview
+    - 0.4.0-preview.5
+    - 0.4.1-preview
+    - 0.5.0-preview.1
+    - 0.5.1-preview.2
+    - 0.6.0-preview.3
+    - 0.50.0-preview.24
+    - 0.50.0-preview.43
+    - 0.51.0-preview.32
+    - 0.51.1-preview.21
+    - 1.0.0-exp.8
+    - 1.0.0-exp.12
+    - 1.0.0-pre.15
+    - 1.0.0-pre.44
+    - 1.0.0-pre.65
+    - 1.0.8
+    - 1.0.10
+    - 1.0.11
+    - 1.0.14
+    - 1.0.16
+    - 1.1.0-exp.1
+    - 1.1.0-pre.3
+    - 1.2.0-exp.3
+    - 1.2.0-pre.4
+    - 1.2.0-pre.6
+    - 1.2.0-pre.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-exp.1
+    - 1.3.0-pre.4
+    recommended: 1.2.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.12
+  - name: com.unity.entities
+    version: 1.2.0
+  - name: com.unity.collections
+    version: 2.4.0
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.entities
+    version: 1.2.4
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.serialization
+    version: 3.1.1
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.24
+  keywords:
+  - unity
+  - physics
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638470572700000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.physics@1.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: ea4236421d61011e37e71d22108c5e4e70cf71d7
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 1.2.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.burst@1.8.17
+  testable: 0
+  isDirectDependency: 0
+  version: 1.8.17
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.burst@1.8.17
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
+    - 1.8.12
+    - 1.8.13
+    - 1.8.14
+    - 1.8.15
+    - 1.8.16
+    - 1.8.17
+    compatible:
+    - 1.8.17
+    recommended: 1.8.17
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638573293750000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 234303811291ae524719609ac4e9ca24be4b58dd
+    path: 
+  unityLifecycle:
+    version: 1.8.17
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.collections@2.4.3
+  testable: 0
+  isDirectDependency: 0
+  version: 2.4.3
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.collections@2.4.3
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    compatible:
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    recommended: 2.4.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.13
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638593176350000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 3229c084d74b90980f151fe926f426ae38a63b44
+    path: 
+  unityLifecycle:
+    version: 1.2.4
+    nextVersion: 
+    recommendedVersion: 2.4.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.mathematics@1.3.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.1
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.mathematics@1.3.1
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638265749150000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: c4f37031a75eb8afb8dfaf5d68fbcce226c70749
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.serialization@3.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.1.1
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.serialization@3.1.1
+  assetPath: Packages/com.unity.serialization
+  name: com.unity.serialization
+  displayName: Serialization
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Use Unity's Serialization to serialize and deserialize from/to JSON
+    and Binary formats.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.1-preview
+    - 0.3.0-preview
+    - 0.3.1-preview
+    - 0.4.0-preview
+    - 0.4.1-preview
+    - 0.5.0-preview
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.6.1-preview
+    - 0.6.2-preview
+    - 0.6.3-preview
+    - 0.6.4-preview
+    - 1.0.0-preview.5
+    - 1.1.0-preview
+    - 1.1.1-preview
+    - 1.2.0-preview
+    - 1.3.0-preview
+    - 1.3.1-preview
+    - 1.4.3-preview
+    - 1.5.0-preview
+    - 1.6.0-preview
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.7.0-preview.1
+    - 1.7.1-preview
+    - 1.7.3-preview
+    - 1.7.4-preview
+    - 1.7.5-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 2.0.0-exp.11
+    - 2.0.0-exp.13
+    - 2.1.0-exp.1
+    - 2.1.1-exp.1
+    - 2.1.2-exp.1
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.1.1
+    - 3.1.2
+    compatible:
+    - 2.0.0-exp.11
+    - 2.0.0-exp.13
+    - 2.1.0-exp.1
+    - 2.1.1-exp.1
+    - 2.1.2-exp.1
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.1.1
+    - 3.1.2
+    recommended: 3.1.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.7.2
+  - name: com.unity.collections
+    version: 2.1.4
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.mathematics
+    version: 1.3.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  keywords:
+  - serialization
+  - json
+  - binary
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638194181240000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.serialization@3.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.properties.git
+    revision: 090f848dff6515cf21787143f17c107644263fe9
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 3.1.1
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.profiling.core@1.0.2
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.nuget.mono-cecil@1.11.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.11.4
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This
+    package is intended for internal Unity use only. Most Unity users will be better
+    suite using the existing community tooling.
+
+    To avoid assembly clashes, please
+    use this package if you intend to use Mono.Cecil.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.11.4
+    compatible:
+    - 1.11.4
+    recommended: 1.11.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: d0133ce672d724694b56bfd20672acf6f8737fec
+    path: 
+  unityLifecycle:
+    version: 1.11.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.scriptablebuildpipeline@1.21.24
+  testable: 0
+  isDirectDependency: 0
+  version: 1.21.24
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.scriptablebuildpipeline@1.21.24
+  assetPath: Packages/com.unity.scriptablebuildpipeline
+  name: com.unity.scriptablebuildpipeline
+  displayName: Scriptable Build Pipeline
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+    to C#.  Use the pre-defined build flows, or create your own using the divided
+    up APIs.  This system improves build time, fixes incremental build, and provides
+    greater flexibility.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.5-preview
+    - 0.0.6-preview
+    - 0.0.8-preview
+    - 0.0.9-preview
+    - 0.0.10-preview
+    - 0.0.14-preview
+    - 0.0.15-preview
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 1.0.1-preview
+    - 1.1.0-preview
+    - 1.1.1-preview
+    - 1.2.1-preview
+    - 1.3.5-preview
+    - 1.4.1-preview
+    - 1.5.0-preview
+    - 1.5.1
+    - 1.5.2
+    - 1.5.4
+    - 1.5.6
+    - 1.5.10
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.6.5-preview
+    - 1.7.2
+    - 1.7.3
+    - 1.8.2
+    - 1.8.4
+    - 1.8.6
+    - 1.9.0
+    - 1.10.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.15.1
+    - 1.15.2
+    - 1.16.1
+    - 1.17.0
+    - 1.18.0
+    - 1.19.0
+    - 1.19.1
+    - 1.19.2
+    - 1.19.3
+    - 1.19.4
+    - 1.19.5
+    - 1.19.6
+    - 1.20.1
+    - 1.20.2
+    - 1.21.0
+    - 1.21.1
+    - 1.21.2
+    - 1.21.3
+    - 1.21.5
+    - 1.21.7
+    - 1.21.8
+    - 1.21.9
+    - 1.21.20
+    - 1.21.21
+    - 1.21.22
+    - 1.21.23
+    - 1.21.24
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    compatible:
+    - 1.21.24
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    recommended: 1.21.24
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - build
+  - bundle
+  - bundles
+  - assetbundles
+  - cache
+  - server
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638562884540000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@1.21/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+    revision: dc29b7795799cb70cc16868d4f07961052a3b033
+    path: 
+  unityLifecycle:
+    version: 1.21.24
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.test-framework.performance@3.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 3.0.3
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.test-framework.performance@3.0.3
+  assetPath: Packages/com.unity.test-framework.performance
+  name: com.unity.test-framework.performance
+  displayName: Performance testing API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Package that extends Unity Test Framework package. Adds performance
+    testing capabilities and collects configuration metadata.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.27-preview
+    - 0.1.29-preview
+    - 0.1.31-preview
+    - 0.1.33-preview
+    - 0.1.34-preview
+    - 0.1.36-preview
+    - 0.1.37-preview
+    - 0.1.39-preview
+    - 0.1.40-preview
+    - 0.1.41-preview
+    - 0.1.42-preview
+    - 0.1.44-preview
+    - 0.1.45-preview
+    - 0.1.47-preview
+    - 0.1.48-preview
+    - 0.1.49-preview
+    - 0.1.50-preview
+    - 1.0.4-preview
+    - 1.0.6-preview
+    - 1.0.9-preview
+    - 1.1.2-preview
+    - 1.2.0-preview
+    - 1.2.1-preview
+    - 1.2.3-preview
+    - 1.2.5-preview
+    - 1.2.6-preview
+    - 1.3.0-preview
+    - 1.3.1-preview
+    - 1.3.2-preview
+    - 1.3.3-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.1.0-preview
+    - 2.2.0-preview
+    - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
+    - 2.8.1-preview
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    compatible:
+    - 1.3.3-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.1.0-preview
+    - 2.2.0-preview
+    - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
+    - 2.8.1-preview
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.31
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.4.3
+  - name: com.unity.ext.nunit
+    version: 2.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - performance
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638301960470000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
+    revision: 10b82691b2d9f4e4aa8385c8d797c7e544bac548
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.test-framework@1.4.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.4.3
+  source: 1
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.test-framework@1.4.3
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3146,7 +5214,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: assets
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 0
   errors: []
@@ -3230,14 +5298,14 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3255,13 +5323,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
-  documentationUrl: 
+  datePublishedTicks: 638410935880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    revision: b2b8bb3a69967e76a874a55ff39aa35e52ea2095
     path: 
   unityLifecycle:
     version: 1.1.33
@@ -3272,182 +5340,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.testtools.codecoverage@1.2.6
+- packageId: com.unity.ext.nunit@2.0.3
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 2.0.3
   source: 1
-  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
-  assetPath: Packages/com.unity.testtools.codecoverage
-  name: com.unity.testtools.codecoverage
-  displayName: Code Coverage
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Use this package to export code coverage data and reports from your
-    automated tests. Additionally, the Code Coverage package offers a Coverage Recording
-    feature which allows capturing coverage data on demand, for manual testing or
-    when there are no automated tests in the project.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.2-preview
-    - 0.2.3-preview
-    - 0.3.0-preview
-    - 0.3.1-preview
-    - 0.4.0-preview
-    - 0.4.1-preview
-    - 0.4.2-preview
-    - 0.4.3-preview
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.0-exp.2
-    - 1.2.0-exp.3
-    - 1.2.0-exp.4
-    - 1.2.0-exp.5
-    - 1.2.0-exp.6
-    - 1.2.0-exp.7
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    compatible:
-    - 1.2.6
-    recommended: 1.2.6
-    deprecated: []
-  dependencies:
-  - name: com.unity.test-framework
-    version: 1.0.16
-  - name: com.unity.settings-manager
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.0.1
-  keywords:
-  - test
-  - coverage
-  - testing
-  - opencover
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
-    path: 
-  unityLifecycle:
-    version: 1.2.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.settings-manager@2.0.1
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  fingerprint: 
-- packageId: com.unity.ext.nunit@1.0.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.6
-  source: 1
-  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.ext.nunit@2.0.3
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3457,8 +5355,8 @@ m_ResolvedPackages:
     url: 
   category: Libraries
   type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
   status: 0
   errors: []
   versions:
@@ -3497,13 +5395,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
+  datePublishedTicks: 637920402200000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    revision: 2e41147762790f2a221103bff840a0138ca01b57
     path: 
   unityLifecycle:
     version: 1.0.6

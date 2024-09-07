@@ -66,6 +66,7 @@ namespace PDollarGestureRecognizer
     /// For $P, gestures are normalized with respect to scale, translated to origin, and resampled into a fixed number of 32 points.
     /// For $Q, a LUT is also computed.
     /// </summary>
+    [Serializable]
     public class Gesture
     {
         public Point[] Points = null;            // gesture points (normalized)

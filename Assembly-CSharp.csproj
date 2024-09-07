@@ -41,55 +41,97 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\AspectGenerator.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\Common.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\JobEntityGenerator.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.entities@1.2.4\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\Camera\MainEntityCamera.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterAspect.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterAuthoring.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\InputUtilities.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCameraSystems.cs" />
+    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\PointCloudRecognizer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterViewAuthoring.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterComponent.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterSystems.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\Camera\MainGameObjectCamera.cs" />
+    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\QPointCloudRecognizer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\FixedTickSystem.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\Camera\MainEntityCameraAuthoring.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonPlayer.cs" />
+    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\Gesture.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\OrbitCamera\CameraTarget.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterComponent.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonPlayerAuthoring.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCamera.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterAuthoring.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterUtilities.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\CanvasObj.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonPlayerSystems.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterSystems.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCameraAuthoring.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\qdollar\PDollarGestureRecognizer\Properties\AssemblyInfo.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\PointCloudRecognizer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\Common\Scripts\Camera\MainCameraSystem.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonPlayerAuthoring.cs" />
     <Compile Include="Assets\Draw.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\ThirdPersonPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\ThirdPerson\Scripts\OrbitCamera\CameraTargetAuthoring.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonPlayerSystems.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.0-pre.2\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterAspect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\qdollar\PDollarGestureRecognizer\Geometry.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\QPointCloudRecognizer.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\qdollar\PDollarGestureRecognizer\Gesture.cs" />
     <Compile Include="Assets\qdollar\PDollarGestureRecognizer\Point.cs" />
     <Compile Include="Assets\qdollar\PDollarGestureRecognizer\PointCloudRecognizerPlus.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Runes\lightning.json" />
+    <None Include="Assets\Runes\fire.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -362,6 +404,9 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
@@ -370,6 +415,12 @@
     </Reference>
     <Reference Include="PDollarGestureRecognizer">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Assets\qdollar\PDollarGestureRecognizer\bin\Release\PDollarGestureRecognizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\PackageCache\com.unity.collections@2.4.3\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -737,20 +788,47 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Physics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Build">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Build.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.Physics">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Physics.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="Unity.Entities.UI.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.UI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -758,14 +836,44 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid.HybridComponents">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Hybrid.HybridComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics.Hybrid">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Physics.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Deformations">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Deformations.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions.Hybrid">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -776,35 +884,83 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.Entities.Graphics">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Hybrid">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Transforms.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Serialization.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Serialization.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Serialization">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Scenes.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Graphics.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Graphics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CharacterController">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.CharacterController.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.UI">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor.Properties">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Editor.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Mathematics.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    <Reference Include="Unity.Scenes">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Scenes.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>C:\Users\natha\Documents\UnityProjects\GestureRecognizer\Library\ScriptAssemblies\Unity.Entities.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
