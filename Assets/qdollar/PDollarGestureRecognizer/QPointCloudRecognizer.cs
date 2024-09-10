@@ -81,7 +81,7 @@ namespace QDollarGestureRecognizer
         /// <param name="candidate"></param>
         /// <param name="templateSet"></param>
         /// <returns></returns>
-        public static string Classify(Gesture candidate, List<Gesture> templateSet)
+        public static (string, float) Classify(Gesture candidate, List<Gesture> templateSet)
         {
             float minDistance = float.MaxValue;
             string gestureClass = "";
@@ -94,7 +94,7 @@ namespace QDollarGestureRecognizer
                     gestureClass = template.Name;
                 }
             }
-            return gestureClass;
+            return (gestureClass, minDistance);
         }
 
         /// <summary>

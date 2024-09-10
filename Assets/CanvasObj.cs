@@ -10,12 +10,16 @@ using UnityEngine;
 using QDollarGestureRecognizer;
 using Unity.PlasticSCM.Editor.WebApi;
 using System.Text.Json;
+using DG.Tweening;
 using UnityEditorInternal;
+using UnityEngine.Serialization;
 
 public class CanvasObj : MonoBehaviour
 {
     [SerializeField] private float minPointDistance = 0.1f;
     [SerializeField] private GameObject line;
+    [SerializeField] private GameObject fizzleEffect;
+    [SerializeField] private float gestureThreshold = 25f;
     
     private LineRenderer currLine;
     private int lineIndex = 0;
@@ -23,6 +27,7 @@ public class CanvasObj : MonoBehaviour
     private List<Gesture> storedGestures;
     private string currName = "default";
     private bool cancelDraw = false;
+    private MaterialPropertyBlock mpb;
 
     private void Start()
     {
@@ -59,6 +64,9 @@ public class CanvasObj : MonoBehaviour
         currLine = Instantiate(line, pos, Quaternion.identity).GetComponent<LineRenderer>();
         lineIndex = 0;
         currLine.SetPosition(0, pos + (GetDirectionToMouse(pos) * 0.1f));
+
+        mpb = new MaterialPropertyBlock();
+        
         prevPosition = pos;
     }
 
@@ -78,6 +86,14 @@ public class CanvasObj : MonoBehaviour
     private void OnMouseExit()
     {
         cancelDraw = true;
+        Compare();
+    }
+
+    private void OnMouseUp()
+    {
+        if (cancelDraw) return;
+        
+        Compare();
     }
 
     private Vector3 GetDirectionToMouse(Vector3 pos)
@@ -136,8 +152,53 @@ public class CanvasObj : MonoBehaviour
 
     public void Compare()
     {
-        if (storedGestures.Count > 0) {
-            print(QPointCloudRecognizer.Classify(loadGesture(), storedGestures));
+        if (storedGestures.Count > 0)
+        {
+            var result = QPointCloudRecognizer.Classify(loadGesture(), storedGestures);
+            var type = result.Item1;
+            var distance = result.Item2;
+
+            if (distance < gestureThreshold)
+            {
+                if (type == "fire")
+                {
+                    currLine.material.SetColor("_Color", Color.red);
+                }
+                else if (type == "lightning")
+                {
+                    currLine.material.SetColor("_Color", Color.blue);
+                }
+                else if (type == "star")
+                {
+                    currLine.material.SetColor("_Color", Color.yellow);
+                }
+            }
+            else
+            {
+                var m = new Mesh();
+
+                currLine.BakeMesh(m);
+                var fizzleParticles = Instantiate(fizzleEffect).GetComponent<ParticleSystem>();
+                fizzleParticles.gameObject.transform.position = currLine.gameObject.transform.position;
+                
+                var shape = fizzleParticles.shape;
+                shape.shapeType = ParticleSystemShapeType.Mesh;
+                shape.meshShapeType = ParticleSystemMeshShapeType.Vertex;
+                shape.mesh = m;
+                
+                var lineRef = currLine;
+                print("No gesture similar enough " + distance);
+                var dissolveAmount = 0f;
+                DOTween.To(() => dissolveAmount, x => dissolveAmount = x, 1f, 1)
+                    .OnUpdate(() =>
+                    {
+                        lineRef.GetPropertyBlock(mpb);
+                        
+                        mpb.SetFloat("_Dissolve", dissolveAmount);
+                        
+                        lineRef.SetPropertyBlock(mpb);
+                    });
+            }
         }
         else
         {
@@ -147,6 +208,16 @@ public class CanvasObj : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetButtonDown("Submit"))
+        {
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+        }
     }
 }
